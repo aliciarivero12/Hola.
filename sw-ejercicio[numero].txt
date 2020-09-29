@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Formularios</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<form action="#" target="" method="get" name="formdatepersonales">
+			<label for="Nombre">Nombre</label>
+			<input type="text" name="Nombre"
+			id="Nombre" placeholder="Escribe tu Nombre"/>
+
+			<label for="Apellido">Apellido</label>
+			<input type="text" name="Apellido" id="Apellido placeholder 1r Apellido"/>
+
+			<label for="email"/>Emai</label>
+			<input type="email" name="email"
+			id="email" placeholder="email" required/>
+
+			<label for="asunto">Asunto</label>
+			<input type="text" name="asunto" id="asunto" placeholder="Informacion Personal"/>
+
+			<label for="telefono">Telefono</label>
+			<input type="telefono" name="telefono" id="telefono"/>
+
+			<label for="mensaje">Mensaje</label>
+			<textarea name="mensaje" for="mensaje" placeholder="describe menos de 300 carácteres" maxlength="300"></textarea>
+
+			<input type="submit" name="enviar" value="Enviar Datos"/>
+
+		</form>
+	</body>
+</html>
